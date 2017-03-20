@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="highbrains.com.databrainsmining.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/oneicon" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+
+        <TableRow
+            android:id="@+id/row_btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Login" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_btn_cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCADASTRO"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Cadastro" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_btn_Trends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnTrends"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Trends" />
+        </TableRow>
+
+    </TableLayout>
+</android.support.design.widget.CoordinatorLayout>
