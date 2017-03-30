@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".Cadastro_Activity" />
-        <activity android:name=".TrendsActivity"></activity>
+        <activity android:name=".TrendsActivity" />
+        <activity android:name=".KeyWordActivity" />
+        <activity android:name=".CreateMonitoringActivity"></activity>
     </application>
 
 </manifest>

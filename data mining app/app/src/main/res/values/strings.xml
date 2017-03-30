@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Data Brains mining</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="DescricaoAnStu">
+        <item>Salvar tudo</item>
+        <item>Sincronizar</item>
+        <item>Maximizar/Minimizar editor</item>
+        <item>Adicionar aos favoritos</item>
+        <item>Inspecione arquivo atual com o perfil atual</item>
+        <item>Abrir configurações</item>
+        <item>Abrir estrutura do projeto</item>
+        <item>Alternar entre guias e janela</item>
+        <item>Pesquisar tudo</item>//BUSCA
+        <item>Busca</item>
+
+    </string-array>
+    <string-array name="ComandoAnStu">
+        <item>Control + S</item>
+        <item>Control + Alt + Y</item>
+        <item>Control + Shift + F12</item>
+        <item>Alt + Shift + F</item>
+        <item>Alt + Shift + I</item>
+        <item>Control + Alt + S</item>
+        <item>Control + Alt + Shift + S</item>
+        <item>Control + Tab</item>
+        <item>Pressione Shift 2x</item>//BUSCA
+        <item>Control + F</item>
+
+
+    </string-array>
+
+
 </resources>

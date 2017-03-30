@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="highbrains.com.databrainsmining.CreateMonitoringActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="250dp"
+        android:layout_marginTop="120dp">
+
+        <TableRow
+            android:id="@+id/label_nome_mon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="40dp"
+                android:text="Nome  monitoramento"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_monitoramento_nome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtboxMonit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/label_buasca_Kw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label1223333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="40dp"
+                android:text="Busca Keyword"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_monitoramento_nome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtboxBuscaKW"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d5d4d4"
-    tools:context="highbrains.com.databrainsmining.TrendsActivity">
+    tools:context="highbrains.com.databrainsmining.KeyWordActivity">
 
     <com.jjoe64.graphview.GraphView
-        android:id="@+id/graph"
+        android:id="@+id/graphKW"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginLeft="40dp"
@@ -17,14 +16,14 @@
         android:background="@android:color/background_light" />
 
     <ListView
-        android:id="@+id/ListView"
+        android:id="@+id/ListViewKeyWord"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="50dp"
         android:layout_marginTop="200dp" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fbtNewSearch"
+        android:id="@+id/fbtNewSearchKW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -34,9 +33,11 @@
         android:clickable="true"
         app:backgroundTint="#000000"
         app:fabSize="normal"
-        app:layout_anchor="@+id/ListView"
+        app:layout_anchor="@+id/ListViewKeyWord"
         app:layout_anchorGravity="bottom|right"
         app:srcCompat="@android:drawable/ic_menu_add" />
+
+
 
 
 </android.support.design.widget.CoordinatorLayout>

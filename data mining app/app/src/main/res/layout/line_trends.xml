@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableRow
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/darker_gray"
+        android:divider="@android:color/black"
+        android:dividerPadding="0.1dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="126dp"
+            android:layout_height="69dp"
+            android:background="#d5d4d4"
+            android:inputType="textMultiLine"
+            android:paddingTop="8dp"
+            android:text="Trends"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCom"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:inputType="textMultiLine"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Comando"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:visibility="visible" />
+    </TableRow>
+
+
+</RelativeLayout>
