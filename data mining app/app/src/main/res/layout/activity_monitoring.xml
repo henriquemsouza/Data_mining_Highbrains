@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_monitoring"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="highbrains.com.databrainsmining.MonitoringActivity">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ListViewMonit"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="30dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fbtNewSearch_mon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        app:backgroundTint="#000000"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/ListViewMonit"
+        app:layout_anchorGravity="bottom|left"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        android:layout_marginLeft="18dp" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fbtDel_mon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="18dp"
+        android:clickable="true"
+        app:backgroundTint="#000000"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/ListViewMonit"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+</android.support.design.widget.CoordinatorLayout>

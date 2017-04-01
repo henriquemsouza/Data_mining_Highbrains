@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_painelinicial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="highbrains.com.databrainsmining.PainelinicialActivity">
+
+    <Button
+        android:text="Graficos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGrafic"
+        android:elevation="0dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:text="Excluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExcluirP"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="200dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ListViewPainel"
+        android:layout_marginTop="71dp" />
+
+    <Button
+        android:text="Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="50dp" />
+
+    <TableRow
+        android:id="@+id/row_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="330dp"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+        <Button
+            android:text="Neg-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNeg"
+            android:background="@android:color/holo_red_light" />
+
+        <Button
+            android:text="Neutra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNeu"
+            android:background="#ede9b9" />
+
+        <Button
+            android:text="Pos+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPos"
+            android:background="@android:color/holo_green_light" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+
+    </TableRow>
+
+</android.support.design.widget.CoordinatorLayout>
