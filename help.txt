@@ -1,0 +1,7 @@
+
+add to gradle
+compile 'org.twitter4j:twitter4j-core:4.0.4'
+
+
+Useful links
+http://twitter4j.org/en/code-examples.html
