@@ -38,5 +38,24 @@
         app:layout_anchorGravity="bottom|right"
         app:srcCompat="@android:drawable/ic_menu_add" />
 
+    <EditText
+
+        android:hint="Genre name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:id="@+id/textBox"
+        android:layout_gravity="bottom" />
+
+    <Button
+        android:onClick="executePost"
+        android:text="Button"
+        android:id="@+id/buttonBox"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
 
 </android.support.design.widget.CoordinatorLayout>
