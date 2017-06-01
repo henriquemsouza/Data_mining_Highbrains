@@ -1,6 +1,7 @@
 package highbrains.com.databrainsmining;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().setTitle("Data Brains");
+        ActionBar actionBar = getSupportActionBar();
 
 
 
@@ -61,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 // Toast.makeText(this, "Menu Item 1 selected", Toast.LENGTH_SHORT).show();
                 dialog=new AlertDialog.Builder(MainActivity.this);//CRIAR NOVO
                 dialog.setTitle("About");
-                dialog.setMessage("  Desenvolvido por \n From the best to the best\nHigh Brains @2017");
+                dialog.setMessage("Desenvolvido por \nFrom the best to the best\nHigh Brains @2017");
                 dialog.setIcon(android.R.drawable.ic_menu_info_details);
                 dialog.create();
                 dialog.show();
