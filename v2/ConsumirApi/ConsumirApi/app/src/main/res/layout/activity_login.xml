@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="com.example.guilherme.consumirapi.LoginActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="250dp"
+        android:layout_marginTop="120dp">
+
+        <TableRow
+            android:id="@+id/label_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="40dp"
+                android:paddingBottom="10dp"
+                android:text="Email"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_emailbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtboxEmail"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@color/BackInput"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColorLink="@color/colorPrimary" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/label_senha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="40dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Senha"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_senhabox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/txtboxSenha"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@color/BackInput"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColorLink="@color/colorPrimary" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnCadastroAct"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/btn_color"
+        android:text="Cadastro"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/btn_color"
+        android:onClick="callSC"
+        android:text="Login"
+        android:textColor="@android:color/white" />
+
+
+</android.support.design.widget.CoordinatorLayout>

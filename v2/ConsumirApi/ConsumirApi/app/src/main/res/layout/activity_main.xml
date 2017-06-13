@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.guilherme.consumirapi.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBox"
+
+        android:text="View List"
+        android:onClick="itemListView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/tooo"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBox2"
+        android:text="Semanal"
+        android:onClick="itemListViewSemanal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/buttonBox"
+        android:visibility="invisible"
+
+
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBox3"
+        android:text="Mensal"
+        android:onClick="itemListViewMensal"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/buttonBox2"
+        android:visibility="invisible"
+
+
+        android:textColor="@android:color/white"
+        android:background="@color/tooo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBox4"
+        android:text="Total"
+        android:onClick="itemListView"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/buttonBox3"
+        android:visibility="invisible"
+
+
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBox5"
+        android:text="Monits"
+        android:onClick="monitsList"
+        android:layout_below="@id/buttonBox2"
+        android:visibility="invisible"
+
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/tooo"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBox5"
+        android:id="@+id/textBox"
+        android:hint="Genre name"
+        android:layout_alignRight="@+id/buttonBox4"
+        android:layout_alignEnd="@+id/buttonBox4"
+        android:layout_toRightOf="@+id/buttonBox"
+        android:layout_toEndOf="@+id/buttonBox" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/textBox"
+        />
+
+</RelativeLayout>
